@@ -57,13 +57,14 @@ Video-Streaming-Platform
   ├── components            # Components directory
   │   └── Footer            # Footer component
   │   └── Navbar            # Navigation bar component
-  ├── TileCards             # Video card component
+  │   └── TitleCards        # Video card component
   ├── i18n                  # Internationalization directory
   │   └── locales           # Language files
-  │       └── index.js      # Language configuration
+  │   └── index.js      # Language configuration
   ├── pages                 # Pages directory
   │   └── Home              # Home page
-  └── Player                # Player page
+  │   └── Login             # Login page
+  │   └── Player            # Player page
 ```
 
 ## 🔧 Development

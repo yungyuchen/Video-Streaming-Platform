@@ -12,6 +12,8 @@
     transparent
   );
   z-index: 1;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
 }
 .navbar-left {
   display: flex;
@@ -76,4 +78,14 @@
 
 .navabr-profile:hover .dropdown {
   display: block;
+}
+
+.navbar {
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-dark {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: all 0.5s ease-in-out;
 }

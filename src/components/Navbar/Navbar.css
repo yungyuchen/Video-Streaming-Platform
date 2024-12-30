@@ -65,15 +65,25 @@
   right: 0;
   width: max-content;
   background: #191919;
-  padding: 18px 22px;
-  border-radius: 2px;
-  text-decoration: underline;
+  border-radius: 4px;
   z-index: 1;
-  display: none; /* add this */
+  display: none;
 }
+
 .navabr-profile .dropdown p {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 13px;
+  color: #fff;
   cursor: pointer;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.navabr-profile .dropdown p:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .navabr-profile:hover .dropdown {
@@ -88,4 +98,56 @@
 .nav-dark {
   background-color: rgba(0, 0, 0, 0.9);
   transition: all 0.5s ease-in-out;
+}
+
+.language-selector {
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.browse-languages {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+}
+
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #191919;
+  border-radius: 4px;
+  /* margin-top: 8px; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.language-selector:hover .language-dropdown {
+  display: block;
+}
+
+.language-dropdown p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  font-size: 13px;
+  color: #fff;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.language-dropdown p:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-arrow {
+  font-size: 8px;
+  margin-left: 2px;
+  margin-top: 2px;
 }

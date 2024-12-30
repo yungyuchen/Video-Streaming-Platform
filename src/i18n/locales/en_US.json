@@ -1,1 +1,62 @@
-{}
+{
+  "navbar": {
+    "home": "Home",
+    "tvShows": "TV Shows",
+    "movies": "Movies",
+    "newAndPopular": "New & Popular",
+    "myList": "My List",
+    "search": "Search",
+    "signOut": "Sign Out",
+    "browseByLanguages": "Browse by Languages",
+    "languages": {
+      "english": "English",
+      "chinese": "Traditional Chinese"
+    },
+    "children": "Children"
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "rememberMe": "Remember me",
+    "needHelp": "Need help?",
+    "newToNetflix": "New to Netflix?",
+    "signUpNow": "Sign up now",
+    "name": "Name"
+  },
+  "player": {
+    "back": "Back to Home"
+  },
+  "home": {
+    "heroDescription": "Discovering his ties to a secret ancient order, a young man living in modern Istanbul embarks on a quest to save the city from an immortal enemy.",
+    "play": "Play",
+    "moreInfo": "More Info",
+    "blockbuster": "Trending Now",
+    "netflixOnly": "Popular on Netflix",
+    "upcoming": "Upcoming",
+    "topPicks": "Top Pics for you",
+    "trending": "Trending Now",
+    "popular": "Popular on Netflix",
+    "topRated": "Top Rated",
+    "action": "Action",
+    "comedy": "Comedy",
+    "horror": "Horror",
+    "romance": "Romance",
+    "documentary": "Documentary"
+  },
+  "footer": {
+    "audioDescription": "Audio Description",
+    "helpCenter": "Help Center",
+    "giftCards": "Gift Cards",
+    "mediaCenter": "Media Center",
+    "investorRelations": "Investor Relations",
+    "jobs": "Jobs",
+    "termsOfUse": "Terms of Use",
+    "privacy": "Privacy",
+    "legalNotices": "Legal Notices",
+    "cookiePreferences": "Cookie Preferences",
+    "corporateInformation": "Corporate Information",
+    "contactUs": "Contact Us"
+  }
+}

@@ -1,1 +1,62 @@
-{}
+{
+  "navbar": {
+    "home": "首頁",
+    "tvShows": "電視節目",
+    "movies": "電影",
+    "newAndPopular": "最新熱門",
+    "myList": "我的片單",
+    "search": "搜尋",
+    "signOut": "登出",
+    "browseByLanguages": "語言選擇",
+    "languages": {
+      "english": "英文",
+      "chinese": "繁體中文"
+    },
+    "children": "兒童"
+  },
+  "login": {
+    "title": "登入",
+    "email": "電子郵件",
+    "password": "密碼",
+    "signIn": "登入",
+    "rememberMe": "記住我",
+    "needHelp": "需要協助？",
+    "newToNetflix": "還不是會員？",
+    "signUpNow": "立即註冊",
+    "name": "姓名"
+  },
+  "player": {
+    "back": "返回首頁"
+  },
+  "home": {
+    "heroDescription": "發現他與一個秘密古代組織的聯繫，一位生活在現代伊斯坦堡的年輕人，為了拯救城市免受不朽敵人的侵害，踏上了一段旅程。",
+    "play": "播放",
+    "moreInfo": "更多資訊",
+    "blockbuster": "熱門影片",
+    "netflixOnly": "熱播影片",
+    "upcoming": "即將上映",
+    "topPicks": "為你推薦",
+    "trending": "熱門影片",
+    "popular": "熱播影片",
+    "topRated": "最高評分",
+    "action": "動作",
+    "comedy": "喜劇",
+    "horror": "恐怖",
+    "romance": "愛情",
+    "documentary": "紀錄片"
+  },
+  "footer": {
+    "audioDescription": "音訊說明",
+    "helpCenter": "說明中心",
+    "giftCards": "禮品卡",
+    "mediaCenter": "媒體中心",
+    "investorRelations": "投資人關係",
+    "jobs": "工作機會",
+    "termsOfUse": "使用條款",
+    "privacy": "隱私權",
+    "legalNotices": "法律聲明",
+    "cookiePreferences": "Cookie 偏好設定",
+    "corporateInformation": "公司資訊",
+    "contactUs": "聯絡我們"
+  }
+}

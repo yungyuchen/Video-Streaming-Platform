@@ -1,9 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./TitleCards.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 // import cards_data from "../../assets/cards/Cards_data";
 
 const TitleCards = ({ title, category }) => {
+  const { t } = useTranslation();
   const [apiData, setApiData] = useState([]);
   const cardsRef = useRef();
 
@@ -35,14 +37,14 @@ const TitleCards = ({ title, category }) => {
   }, []);
   return (
     <div className="title-Cards">
-      <h2>{title ? title : "Popular on Netflix"}</h2>
+      <h2>{title ? title : t("home.popular")}</h2>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((card, index) => {
           return (
             <Link to={`/player/${card.id}`} className="card" key={index}>
               <img
-                src={`https://image.tmdb.org/t/p/w500` + card.backdrop_path}
-                alt=""
+                src={`https://image.tmdb.org/t/p/w500${card.backdrop_path}`}
+                alt={card.original_title}
               />
               <p>{card.original_title}</p>
             </Link>
